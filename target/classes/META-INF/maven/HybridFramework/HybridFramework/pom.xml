@@ -5,8 +5,13 @@
 	<groupId>HybridFramework</groupId>
 	<artifactId>HybridFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
-	<dependencies>
+	
+			 <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+     </properties>
+     
+<dependencies>
 
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
@@ -31,35 +36,28 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.4.1</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.39.0</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.11.0</version>
 		</dependency>
-
-
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+		
 
-
+  
 	</dependencies>
-
-
 	<build>
-
 		<plugins>
-
-			<plugin>
+		<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.5.4</version>
@@ -69,12 +67,6 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-
-
 		</plugins>
-
-
 	</build>
-
-
 </project>
