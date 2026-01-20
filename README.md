@@ -1,20 +1,20 @@
+# Automated Test
 
-# Automated test
+All test for freelance application with framework
 
-All changes for freelance application with framework
 
 ## Running Tests
 
-Clone the repository
+Clone the repository using
 
 ```bash
-git Clone https://github.com/Preethi199223/SepFramework.git
+git clone https://github.com/Mukesh-50/SepBatchFramework.git
 
-git Clone git@github.com:Preethi199223/SepFramework.git
+git clone git@github.com:Mukesh-50/SepBatchFramework.git
 
-cd SepFramework
+cd SepBatchFramework
+
 To run tests, run the following command
 
-  mvn clean test
-
+mvn clean test -Dxmlfiles=testng.xml
 
